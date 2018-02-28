@@ -1,84 +1,313 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <head>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<style>
-		body {
-			padding-top: 50px;
-			padding-bottom: 20px;
-		}
-	</style>
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body>
-	<!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">splantio</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<form class="navbar-form navbar-right" role="form">
-				  
-				</form>
-			</div><!--/.navbar-collapse -->
-		</div>
-	</nav>
+    <title>Spencer Plant</title>
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<div class="container">
-			<h1>Under construction!</h1>
-			<p>Sorry if you got your hopes up. This site is currently under development, so come back sometime to see it up and running!</p>
-		</div>
-	</div>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<div class="container">
-		<footer>
-			<p>&copy; Spencer Plant 2017</p>
-		</footer>
-	</div> <!-- /container -->        
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-	<script src="js/vendor/bootstrap.min.js"></script>
+  </head>
 
-	<script src="js/main.js"></script>
+  <body id="page-top">
 
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	<script>
-		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-		e.src='http://www.google-analytics.com/analytics.js';
-		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-		ga('create','UA-99574014-1','auto');ga('send','pageview');
-	</script>
-</body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="box-shadow: 0px 0px 20px grey;">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">splantio</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <div class="container-fluid p-0">
 
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Spencer
+            <span class="text-primary">Plant</span>
+          </h1>
+          <div class="subheading mb-5">305 10819 47th Ave NW · Edmonton, AB T6H 5J1 · (306) 830-2170 ·
+            <a href="mailto:splant@ualberta.ca">splant@ualberta.ca</a>
+          </div>
+          <p class="mb-5">I am experienced in Android development with Java, and am currently learning Kotlin. Working on my web development skills constantly; familiar with the standard LAMP stack, with an interest in React.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/spencerplant/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/splantio" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+             <li class="list-inline-item">
+              <a href="https://www.facebook.com/splantio" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/splantio" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Lab Technician</h3>
+              <div class="subheading mb-3">University of Alberta</div>
+              <p>Sole developer for custom Android framework development for three distinct research projects. Web development for University of Alberta Grand Forum project by contributing to forked web applications for the faculties of Computing Science, Chemistry, Physics, and Occupational Therapy.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Front End Developer</h3>
+              <div class="subheading mb-3">RentWhiz</div>
+              <p>Android development for as-of-yet unreleased application. Consulting end-to-end architecture design with emphasis in maintainability and scalability.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">HackDay Android Mentor</h3>
+              <div class="subheading mb-3">Startup Edmonton</div>
+              <p>Ran Android development workshop, provided programming aid to various HackDay projects in Java and C++.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2 December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Technician</h3>
+              <div class="subheading mb-3">Lakeland College</div>
+              <p>C# and Android development in connection to two research projects. Maintaining industrial drone for crop imaging. Python with OpenCV for processing said crop imaging.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2016 - August 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Technician</h3>
+              <div class="subheading mb-3">Lakeland College</div>
+              <p>Integrating SVG graphics with live MongoDB database recording hundreds of sensors around a research facility to aid with visualization of data as it occurs. Contributing to Node.js web app development for accessing database.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2015 - December 2015</span>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Alberta</h3>
+              <div class="subheading mb-3">Bachelor of Science with Specialization</div>
+              <div>Computing Science - Software Specialization</div>
+              <p>GPA: 3.23</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2013 - April 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">J.R. Robson High School</h3>
+              <div class="subheading mb-3">Honours</div>
+              <!-- <p>GPA: 3.56</p> -->
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2010 - June 2013</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+          	<li class="list-inline-item">
+              <i class="devicons devicons-android"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-intellij"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-unity_small"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-linux"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+          	<li>
+              <i class="fa-li fa fa-check"></i>
+              Maintainability-First, Scalability</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Intuitive User Interface</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross- Browser/Device Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>I truly love to program. I'd go so far as to say it is my favourite hobby even with work revolving around it. When not working on a project, I enjoy the outdoors, provided it isn't too cold out. Winter is great for just two reasons: the hockey season begins, and ski hills open up. In the four months of "not-winter" in Alberta, I enjoy running and spending as much time as possible relaxing at the lake, making the most of the extended daylight.</p>
+          <p class="mb-0">Indoors, I consider myself a chef, musician (keyboard, ukulele, bass), and video gamer. I also enjoy reading about and adopting the newest in software development. Currently, Kotlin!</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Video Game Development Certified - University of Alberta 2018</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - University of Alberta - Programming Contest 2015</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              A Jason Lang Scholarship - University of Albert 2014-2015</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              The Rosa H Wolters Entrance Scholarship - University of Alberta 2013-2014</li>
+
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
 
 </html>
